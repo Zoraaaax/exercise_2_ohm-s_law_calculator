@@ -7,7 +7,7 @@ if calculate == "voltage":
     print(f"The Voltage is {total_voltage} volts")
 
 elif calculate == "current":
-    voltage = float(input("Enter the value of Volatage (in volts): "))
+    voltage = float(input("Enter the value of Voltage (in volts): "))
     resistance = float(input("Enter the value of Resistance (in ohms): "))
 
     if resistance == 0:
@@ -28,4 +28,3 @@ elif calculate == "resistance":
 
 else:
     print("Invalid input! Please choose to calculate either Voltage, Current, or Resistance.")
-    
