@@ -26,3 +26,6 @@ elif calculate == "resistance":
         total_resistance = voltage / current
         print(f"The Current is {total_resistance} ohms")
 
+else:
+    print("Invalid input! Please choose to calculate either Voltage, Current, or Resistance.")
+    
