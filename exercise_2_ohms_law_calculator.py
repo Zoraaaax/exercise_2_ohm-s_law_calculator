@@ -5,3 +5,8 @@ if calculate == "voltage":
     resistance = float(input("Enter the value of Resistance (in ohms): "))
     total_voltage = current * resistance
     print(f"The Voltage is {total_voltage} volts")
+
+elif calculate == "current":
+    voltage = float(input("Enter the value of Volatage (in volts): "))
+    resistance = float(input("Enter the value of Resistance (in ohms): "))
+
