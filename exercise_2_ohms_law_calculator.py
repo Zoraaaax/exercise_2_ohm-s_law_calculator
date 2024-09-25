@@ -16,3 +16,7 @@ elif calculate == "current":
         total_current = voltage / resistance
         print(f"The Current is {total_current} amperes")
 
+elif calculate == "resistance":
+    voltage = float(input("Enter the value of Voltage (in volts): "))
+    current = float(input("Enter the value of Current (in amperes): "))
+
