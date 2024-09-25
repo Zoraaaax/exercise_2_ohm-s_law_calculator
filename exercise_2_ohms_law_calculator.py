@@ -10,3 +10,9 @@ elif calculate == "current":
     voltage = float(input("Enter the value of Volatage (in volts): "))
     resistance = float(input("Enter the value of Resistance (in ohms): "))
 
+    if resistance == 0:
+        print(f"Invalid input! Resistance cannot be zero. Please try again")
+    else:
+        total_current = voltage / resistance
+        print(f"The Current is {total_current} amperes")
+
